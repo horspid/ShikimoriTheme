@@ -1,0 +1,32 @@
+.achievements > .cc-2 > .c-column {
+    width: 100%;
+}
+.cc-franchises {
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.p-profiles-show .achievements .header .title {
+    text-align: center;
+}
+
+.p-profiles-show .achievements .header {
+    padding: 10px 0;
+    border: 1px solid $secondary;
+    width: 100%;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.p-profiles-show .achievements .header .title {
+    color: $primary;
+    text-transform: uppercase;
+}
+.p-profiles-show .achievements .header .size {
+    color: $tertiary;
+}
+.p-profiles-show .achievements .cc-franchises .b-badge {
+    margin-bottom: 1.5% !important;
+}

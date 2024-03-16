@@ -1,0 +1,44 @@
+.p-profiles .profile-head .c-brief .avatar img,
+.subheadline-buttons,
+.achievements > .cc-2 > .c-column:nth-child(1),
+.achievements > .cc-2 > .c-column:nth-child(2),
+.achievements > .cc-2 > .c-column:nth-child(4),
+.achievements > .subheadline,
+.headline > a:before,
+.midheadline > a:before,
+.subheadline > a:before,
+.b-stats_bar .stat_names .stat_name .size:before,
+.b-stats_bar .stat_names .stat_name .size:after,
+.b-stats_bar .stat_names .stat_name:after,
+.p-profiles-show.x1200 .profile-content .c-right .cc-2a > .c-column:last-child,
+.p-profiles-show .lifetime .cuts,
+.p-profiles-show .lifetime .title .value,
+.p-profiles-show .lifetime .times .time.checked:before,
+.p-profiles-show .cc-2.block .activity,
+.p-user_rates-index .list-lines.b-table thead,
+.p-user_rates-index .list-lines tr td .current-value.is-hidden,
+.p-user_rates-index .list-lines tr td .misc-value.is-hidden,
+.l-top_menu-v2 .global-search .search-results:after,
+.l-top_menu-v2 .global-search .search-results:before {
+    display: none !important;
+}
+.p-profiles .profile-head .c-brief .avatar .profile-actions,
+.p-profiles .profile-head .c-info,
+.p-profiles .profile-head .c-history,
+.p-profiles-show.x1200 .profile-content .c-left:nth-child(2n + 1) {
+    position: absolute;
+}
+.p-profiles .profile-head .c-brief .avatar,
+.profile-head {
+    position: relative;
+}
+.p-profiles .profile-head .c-brief,
+.cc-franchises,
+.p-profiles .profile-head .b-stats_bar .bar,
+.p-profiles-show.x1200 .profile-content .c-right,
+.p-profiles-show .lifetime .bar,
+.p-profiles-show .cc-2.block,
+.p-profiles-show .profile-content .cc-2.block .c-column .lifetime .times,
+.p-profiles .profile-head .b-stats_bar .stat_names {
+    display: flex;
+}

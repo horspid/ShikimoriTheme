@@ -1,0 +1,38 @@
+.p-profiles .profile-head .c-history {
+    width: 65%;
+    margin: 0;
+    right: 0;
+    top: 109px;
+}
+
+.m13 {
+    text-align: center;
+    margin: 0 0 15px 0 !important;
+}
+
+.p-profiles .profile-head .c-history .entry {
+    margin: 0 !important;
+    padding: 0;
+    border: none !important;
+}
+.p-profiles .profile-head .c-history .entry:before,
+.p-profiles .profile-head .c-history .entry:after {
+    margin: 5px 0;
+}
+
+.p-profiles .profile-head .c-history .entry .title {
+    color: $secondary;
+}
+.p-profiles .profile-head .c-history .entry .misc {
+    color: $secondary !important;
+}
+
+// .headline > a,
+// .midheadline > a,
+// .subheadline > a {
+//     font-size: 14px;
+//     text-transform: uppercase;
+//     color: $primary;
+//     cursor: pointer;
+//     padding-right: 0;
+// }

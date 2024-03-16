@@ -1,0 +1,36 @@
+.p-profiles-show .lifetime {
+    margin: 0;
+    text-align: center;
+}
+
+.p-profiles-show.x1200 .profile-content .c-left:nth-child(2n + 1) {
+    right: 0;
+    top: -173px;
+    width: 65%;
+    margin: 0;
+}
+.p-profiles-show .lifetime .title {
+    width: max-content;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border: 1px solid $secondary;
+    border-radius: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.times {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.b-stats_bar.lifetime .bar .first {
+    background-color: $secondary;
+}
+.b-stats_bar.lifetime .bar .third {
+    background-color: $border-blocks;
+}
+
+.p-profiles-show .lifetime .bar {
+    height: 10px;
+}

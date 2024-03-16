@@ -1,0 +1,239 @@
+*:not(.CodeMirror *),
+header.head h1 a.back:before,
+header.head h2 a.back:before {
+    color: $primary !important;
+}
+.p-profiles .profile-head .c-brief header span,
+.times > .time,
+.b-catalog_entry .cover .misc span,
+.b-options-floated .selected,
+.p-user_rates-index .list-groups .summary.lines.list,
+.p-user_rates-index .list-groups .summary.lines,
+.stat-categories a,
+.b-list .b-link,
+.b-db_entry-variant-list_item > .info .line .value > a,
+.b-db_entry-variant-list_item > .info .line .value > div,
+.b-db_entry-variant-list_item > .info .line .value > span,
+.b-tag.narrow,
+.p-profiles-show .achievements .header .size,
+.p-user_rates-index .list-groups .summary .stat-value {
+    color: $secondary !important;
+}
+a:hover {
+    text-decoration: none !important;
+    border-color: $primary !important;
+    color: $primary !important;
+}
+
+.p-dashboards-show .v2 .db-updates .inner > .db-update,
+.b-anime_status_tag,
+.b-tag.genre,
+select,
+option,
+.l-top_menu-v2 .global-search .search-results .nothing_found,
+.l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item,
+.l-top_menu-v2 .global-search .search-results .search-mode,
+.b-quote-v2,
+.b-link_button.dark,
+.b-comments .comments-loader,
+.b-comments .comments-hider,
+.b-comments .comments-expander,
+body[data-locale="ru"] .b-offtopic_marker:before,
+body[data-locale="ru"] .b-new_marker:before .b-spoiler_inline:not(.is-opened),
+.b-anime_status_tag.opened-collection .b-height_shortener .shade,
+.b-spoiler_block > *,
+.b-review-topic.is-review_review_author_details
+    > .inner
+    .review-info
+    .opinion.neutral,
+.b-code-v2 {
+    color: $secondary !important;
+    border: 1px solid $border-blocks !important;
+    background-color: $background-blocks !important;
+}
+.p-dashboards-show .v2 .db-updates .inner > .db-update,
+.b-anime_status_tag {
+    padding: 15px;
+}
+.b-options-floated .action {
+    border: none;
+}
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="text"],
+input[type="url"],
+input[type="search"],
+input,
+button,
+textarea,
+input[type="submit"],
+.b-add_to_list.planned .trigger,
+.b-add_to_list.planned .option,
+.tooltip-inner,
+.b-add_to_list.completed .trigger,
+.b-add_to_list.completed .option,
+.p-animes-show .other-names,
+.p-animes-show .more-info,
+.p-mangas-show .other-names,
+.p-mangas-show .more-info,
+.p-ranobe-show .other-names,
+.p-ranobe-show .more-info,
+.b-reviews_navigation .navigation-container,
+.b-footer_vote,
+.b-button,
+.b-input select {
+    color: $primary !important;
+    border: 1px solid $border-blocks !important;
+    background-color: $background-blocks !important;
+}
+.l-top_menu-v2 .global-search .search-results,
+.navigation-node,
+.l-top_menu-v2,
+.l-top_menu-v2 .menu-dropdown > span {
+    background-color: $background-blocks !important;
+}
+.navigation-node {
+    background: none !important;
+}
+.l-top_menu-v2
+    .global-search
+    .search-results
+    .nothing_found.active
+    + .b-db_entry-variant-list_item,
+.l-top_menu-v2
+    .global-search
+    .search-results
+    .nothing_found.active
+    + .search-mode,
+.l-top_menu-v2
+    .global-search
+    .search-results
+    .nothing_found:focus
+    + .b-db_entry-variant-list_item,
+.l-top_menu-v2
+    .global-search
+    .search-results
+    .nothing_found:focus
+    + .search-mode,
+.l-top_menu-v2
+    .global-search
+    .search-results
+    .b-db_entry-variant-list_item.active
+    + .b-db_entry-variant-list_item,
+.l-top_menu-v2
+    .global-search
+    .search-results
+    .b-db_entry-variant-list_item.active
+    + .search-mode,
+.l-top_menu-v2
+    .global-search
+    .search-results
+    .b-db_entry-variant-list_item:focus
+    + .b-db_entry-variant-list_item,
+.l-top_menu-v2
+    .global-search
+    .search-results
+    .b-db_entry-variant-list_item:focus
+    + .search-mode,
+.l-top_menu-v2
+    .global-search
+    .search-results
+    .search-mode.active
+    + .b-db_entry-variant-list_item,
+.l-top_menu-v2
+    .global-search
+    .search-results
+    .search-mode.active
+    + .search-mode,
+.l-top_menu-v2
+    .global-search
+    .search-results
+    .search-mode:focus
+    + .b-db_entry-variant-list_item,
+.l-top_menu-v2
+    .global-search
+    .search-results
+    .search-mode:focus
+    + .search-mode {
+    border-top-color: inherit !important;
+}
+.b-tag[href],
+.b-tag {
+    border-bottom: 1px solid $secondary;
+    border-bottom-color: $secondary;
+}
+.b-height_shortener .shade {
+    background-image: none !important;
+}
+.b-add_to_list.watching .trigger,
+.b-add_to_list.watching .option,
+.b-add_to_list.watching .trigger,
+.b-add_to_list.watching .option,
+.b-anime_status_tag.is_written_before_release,
+.b-anime_status_tag.opened-collection,
+.b-anime_status_tag,
+.b-code-v2,
+body[data-locale="ru"] .b-offtopic_marker.off:before,
+body[data-locale="ru"] .b-offtopic_marker.off:hover:before {
+    color: $secondary;
+    border-color: $border-blocks;
+    background: $background-blocks !important;
+}
+.b-anime_status_tag.contest,
+.b-anime_status_tag.collection,
+.b-anime_status_tag.spoilers,
+.b-anime_status_tag.censored,
+.b-anime_status_tag.critique,
+.b-anime_status_tag.article,
+.b-anime_status_tag.other,
+.b-anime_status_tag.misc-data,
+.b-anime_status_tag.unpublished-collection,
+.b-anime_status_tag.news,
+.b-anime_status_tag.anons,
+.b-anime_status_tag.released,
+.b-anime_status_tag.ongoing,
+.b-comments-notifier:active {
+    border: none !important;
+    background-color: $border-blocks !important;
+}
+.b-quote,
+.b-comments-notifier,
+.b-comments .comments-loader,
+.b-comments .comments-hider,
+.b-comments .comments-expander,
+.b-review-topic.is-review_review_author_details
+    > .inner
+    .review-info
+    .opinion.positive,
+.b-review-topic.is-review_review_author_details
+    > .inner
+    .review-info
+    .opinion.neutral,
+.b-review-topic.is-review_review_author_details
+    > .inner
+    .review-info
+    .opinion.negative {
+    background: $border-blocks !important;
+}
+body[data-locale="ru"] .b-new_marker:before,
+.b-comments .comments-loader,
+.b-comments .comments-hider,
+.b-comments .comments-expander,
+.b-link_button.blue {
+    color: $secondary;
+    background-color: $background-blocks !important;
+    border: 1px solid $border-blocks !important;
+}
+.search-results .search-mode {
+    border-top: 1px solid $border-blocks !important;
+    background: $background-blocks !important;
+}
+.l-top_menu-v2 .submenu {
+    background: $background-blocks !important;
+    border: none !important;
+}
+.l-top_menu-v2 .menu-dropdown > span a:hover,
+.l-top_menu-v2 .submenu > a:hover {
+    background-color: $border-blocks !important;
+}

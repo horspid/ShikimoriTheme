@@ -1,0 +1,12 @@
+.l-page {
+    padding: 40px;
+    background: none;
+}
+body {
+    background-color: $background;
+    @include bg-cover;
+}
+
+.profile-content {
+    margin-top: 138px;
+}

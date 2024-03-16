@@ -1,0 +1,34 @@
+// ---------------- 1. vars -----------------
+
+@import "settings/vars";
+
+// ---------------- 2. fonts ----------------
+@import "mixins/font-face";
+@import "settings/fonts";
+
+// ---------------- 3. reset styles ---------
+@import "settings/reset";
+// ---------------- 4. mixins --------------
+
+@import "mixins/breakpoints";
+@import "mixins/styles";
+
+// ---------------- 5. general components ---------------
+
+@import "components/general/fonts";
+@import "components/general/blocks";
+@import "components/general/colors";
+@import "components/general/position";
+@import "components/general/opacity";
+
+// ---------------- 6. components ---------------
+
+@import "components/profile/avatar";
+@import "components/profile/achievements";
+@import "components/profile/anime-list";
+@import "components/profile/favorites";
+@import "components/profile/friends";
+@import "components/profile/history";
+@import "components/profile/profile-content";
+@import "components/profile/profile";
+@import "components/anime-list/main";

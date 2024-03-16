@@ -1,0 +1,920 @@
+@font-face {
+    font-family: "Material Symbols Outlined";
+    font-style: normal;
+    font-weight: 100 700;
+    src: url(https://fonts.gstatic.com/s/materialsymbolsoutlined/v167/kJEhBvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oFsI.woff2)
+        format("woff2");
+}
+@font-face {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Ubuntu Regular"), local("Ubuntu-Regular"),
+        url(https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKew72j00.woff2)
+            format("woff2");
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+* {
+    font-family: "Ubuntu", sans-serif !important;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+code,
+em,
+img,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+b,
+u,
+i,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+main,
+canvas,
+embed,
+footer,
+header,
+nav,
+section,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: none;
+    text-decoration: none;
+}
+
+footer,
+header,
+nav,
+section,
+main {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+select,
+option {
+    outline: none;
+}
+
+input {
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+.p-user_rates-index .list-lines tr td .new-value .item-add:before {
+    font-size: 13px !important;
+}
+
+.p-user_rates-index .list-lines tr td .new-value input {
+    font-size: 16px !important;
+}
+
+.headline,
+.subheadline,
+.p-profiles .profile-head .c-brief header,
+.p-profiles .profile-head .c-brief .avatar .profile-actions,
+.p-profiles .profile-head .c-history,
+.p-profiles-show.x1200 .profile-content .c-right > .block:last-child,
+.p-profiles-show .profile-content .c-right .cc-2a,
+.achievements > .cc-2 > .c-column,
+.b-entry-info > .collapsed.spoiler,
+.collapsed + .spoiler .hide-expanded {
+    border: 1px solid #2f2f2f;
+    background-color: #242424;
+    padding: 15px;
+}
+
+.p-dashboards-show .v2 .fc-user-sections .f-user .my-list,
+.p-dashboards-show .v2 .fc-user-sections .f-sections .f-headline a,
+.p-dashboards-show .v2 .fc-user-sections .f-sections .fc-tags a,
+.b-db_entry-variant-list_item > .info .line .value > a,
+.b-db_entry-variant-list_item > .info .line .value > div,
+.b-db_entry-variant-list_item > .info .line .value > span {
+    border: 1px solid #2f2f2f;
+    background-color: #242424;
+}
+
+.m13 {
+    padding: 15px 0 !important;
+}
+
+.linkheadline {
+    padding: 0;
+    border-left: none;
+}
+
+.linkheadline a {
+    padding-left: 10px;
+}
+
+.p-user_rates-index .list-lines tr.edit-form form {
+    border: 1px solid #2f2f2f;
+    background-color: #242424;
+    padding: 15px;
+}
+
+*:not(.CodeMirror *),
+header.head h1 a.back:before,
+header.head h2 a.back:before {
+    color: #bcbcbc !important;
+}
+
+.p-profiles .profile-head .c-brief header span,
+.times > .time,
+.b-catalog_entry .cover .misc span,
+.b-options-floated .selected,
+.p-user_rates-index .list-groups .summary.lines.list,
+.p-user_rates-index .list-groups .summary.lines,
+.stat-categories a,
+.b-list .b-link,
+.b-db_entry-variant-list_item > .info .line .value > a,
+.b-db_entry-variant-list_item > .info .line .value > div,
+.b-db_entry-variant-list_item > .info .line .value > span,
+.b-tag.narrow,
+.p-profiles-show .achievements .header .size,
+.p-user_rates-index .list-groups .summary .stat-value {
+    color: #7a7a7a !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+    border-color: #bcbcbc !important;
+    color: #bcbcbc !important;
+}
+
+.p-dashboards-show .v2 .db-updates .inner > .db-update,
+.b-anime_status_tag,
+.b-tag.genre,
+select,
+option,
+.l-top_menu-v2 .global-search .search-results .nothing_found,
+.l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item,
+.l-top_menu-v2 .global-search .search-results .search-mode,
+.b-quote-v2,
+.b-link_button.dark,
+.b-comments .comments-loader,
+.b-comments .comments-hider,
+.b-comments .comments-expander,
+body[data-locale="ru"] .b-offtopic_marker:before,
+body[data-locale="ru"] .b-new_marker:before .b-spoiler_inline:not(.is-opened),
+.b-anime_status_tag.opened-collection .b-height_shortener .shade,
+.b-spoiler_block > *,
+.b-review-topic.is-review_review_author_details
+    > .inner
+    .review-info
+    .opinion.neutral,
+.b-code-v2 {
+    color: #7a7a7a !important;
+    border: 1px solid #2f2f2f !important;
+    background-color: #242424 !important;
+}
+
+.p-dashboards-show .v2 .db-updates .inner > .db-update,
+.b-anime_status_tag {
+    padding: 15px;
+}
+
+.b-options-floated .action {
+    border: none;
+}
+
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="text"],
+input[type="url"],
+input[type="search"],
+input,
+button,
+textarea,
+input[type="submit"],
+.b-add_to_list.planned .trigger,
+.b-add_to_list.planned .option,
+.tooltip-inner,
+.b-add_to_list.completed .trigger,
+.b-add_to_list.completed .option,
+.p-animes-show .other-names,
+.p-animes-show .more-info,
+.p-mangas-show .other-names,
+.p-mangas-show .more-info,
+.p-ranobe-show .other-names,
+.p-ranobe-show .more-info,
+.b-reviews_navigation .navigation-container,
+.b-footer_vote,
+.b-button,
+.b-input select {
+    color: #bcbcbc !important;
+    border: 1px solid #2f2f2f !important;
+    background-color: #242424 !important;
+}
+
+.l-top_menu-v2 .global-search .search-results,
+.navigation-node,
+.l-top_menu-v2,
+.l-top_menu-v2 .menu-dropdown > span {
+    background-color: #242424 !important;
+}
+
+.navigation-node {
+    background: none !important;
+}
+
+.l-top_menu-v2
+    .global-search
+    .search-results
+    .nothing_found.active
+    + .b-db_entry-variant-list_item,
+.l-top_menu-v2
+    .global-search
+    .search-results
+    .nothing_found.active
+    + .search-mode,
+.l-top_menu-v2
+    .global-search
+    .search-results
+    .nothing_found:focus
+    + .b-db_entry-variant-list_item,
+.l-top_menu-v2
+    .global-search
+    .search-results
+    .nothing_found:focus
+    + .search-mode,
+.l-top_menu-v2
+    .global-search
+    .search-results
+    .b-db_entry-variant-list_item.active
+    + .b-db_entry-variant-list_item,
+.l-top_menu-v2
+    .global-search
+    .search-results
+    .b-db_entry-variant-list_item.active
+    + .search-mode,
+.l-top_menu-v2
+    .global-search
+    .search-results
+    .b-db_entry-variant-list_item:focus
+    + .b-db_entry-variant-list_item,
+.l-top_menu-v2
+    .global-search
+    .search-results
+    .b-db_entry-variant-list_item:focus
+    + .search-mode,
+.l-top_menu-v2
+    .global-search
+    .search-results
+    .search-mode.active
+    + .b-db_entry-variant-list_item,
+.l-top_menu-v2
+    .global-search
+    .search-results
+    .search-mode.active
+    + .search-mode,
+.l-top_menu-v2
+    .global-search
+    .search-results
+    .search-mode:focus
+    + .b-db_entry-variant-list_item,
+.l-top_menu-v2
+    .global-search
+    .search-results
+    .search-mode:focus
+    + .search-mode {
+    border-top-color: inherit !important;
+}
+
+.b-tag[href],
+.b-tag {
+    border-bottom: 1px solid #7a7a7a;
+    border-bottom-color: #7a7a7a;
+}
+
+.b-height_shortener .shade {
+    background-image: none !important;
+}
+
+.b-add_to_list.watching .trigger,
+.b-add_to_list.watching .option,
+.b-add_to_list.watching .trigger,
+.b-add_to_list.watching .option,
+.b-anime_status_tag.is_written_before_release,
+.b-anime_status_tag.opened-collection,
+.b-anime_status_tag,
+.b-code-v2,
+body[data-locale="ru"] .b-offtopic_marker.off:before,
+body[data-locale="ru"] .b-offtopic_marker.off:hover:before {
+    color: #7a7a7a;
+    border-color: #2f2f2f;
+    background: #242424 !important;
+}
+
+.b-anime_status_tag.contest,
+.b-anime_status_tag.collection,
+.b-anime_status_tag.spoilers,
+.b-anime_status_tag.censored,
+.b-anime_status_tag.critique,
+.b-anime_status_tag.article,
+.b-anime_status_tag.other,
+.b-anime_status_tag.misc-data,
+.b-anime_status_tag.unpublished-collection,
+.b-anime_status_tag.news,
+.b-anime_status_tag.anons,
+.b-anime_status_tag.released,
+.b-anime_status_tag.ongoing,
+.b-comments-notifier:active {
+    border: none !important;
+    background-color: #2f2f2f !important;
+}
+
+.b-quote,
+.b-comments-notifier,
+.b-comments .comments-loader,
+.b-comments .comments-hider,
+.b-comments .comments-expander,
+.b-review-topic.is-review_review_author_details
+    > .inner
+    .review-info
+    .opinion.positive,
+.b-review-topic.is-review_review_author_details
+    > .inner
+    .review-info
+    .opinion.neutral,
+.b-review-topic.is-review_review_author_details
+    > .inner
+    .review-info
+    .opinion.negative {
+    background: #2f2f2f !important;
+}
+
+body[data-locale="ru"] .b-new_marker:before,
+.b-comments .comments-loader,
+.b-comments .comments-hider,
+.b-comments .comments-expander,
+.b-link_button.blue {
+    color: #7a7a7a;
+    background-color: #242424 !important;
+    border: 1px solid #2f2f2f !important;
+}
+
+.search-results .search-mode {
+    border-top: 1px solid #2f2f2f !important;
+    background: #242424 !important;
+}
+
+.l-top_menu-v2 .submenu {
+    background: #242424 !important;
+    border: none !important;
+}
+
+.l-top_menu-v2 .menu-dropdown > span a:hover,
+.l-top_menu-v2 .submenu > a:hover {
+    background-color: #2f2f2f !important;
+}
+
+.p-profiles .profile-head .c-brief .avatar img,
+.subheadline-buttons,
+.achievements > .cc-2 > .c-column:nth-child(1),
+.achievements > .cc-2 > .c-column:nth-child(2),
+.achievements > .cc-2 > .c-column:nth-child(4),
+.achievements > .subheadline,
+.headline > a:before,
+.midheadline > a:before,
+.subheadline > a:before,
+.b-stats_bar .stat_names .stat_name .size:before,
+.b-stats_bar .stat_names .stat_name .size:after,
+.b-stats_bar .stat_names .stat_name:after,
+.p-profiles-show.x1200 .profile-content .c-right .cc-2a > .c-column:last-child,
+.p-profiles-show .lifetime .cuts,
+.p-profiles-show .lifetime .title .value,
+.p-profiles-show .lifetime .times .time.checked:before,
+.p-profiles-show .cc-2.block .activity,
+.p-user_rates-index .list-lines.b-table thead,
+.p-user_rates-index .list-lines tr td .current-value.is-hidden,
+.p-user_rates-index .list-lines tr td .misc-value.is-hidden,
+.l-top_menu-v2 .global-search .search-results:after,
+.l-top_menu-v2 .global-search .search-results:before {
+    display: none !important;
+}
+
+.p-profiles .profile-head .c-brief .avatar .profile-actions,
+.p-profiles .profile-head .c-info,
+.p-profiles .profile-head .c-history,
+.p-profiles-show.x1200 .profile-content .c-left:nth-child(2n + 1) {
+    position: absolute;
+}
+
+.p-profiles .profile-head .c-brief .avatar,
+.profile-head {
+    position: relative;
+}
+
+.p-profiles .profile-head .c-brief,
+.cc-franchises,
+.p-profiles .profile-head .b-stats_bar .bar,
+.p-profiles-show.x1200 .profile-content .c-right,
+.p-profiles-show .lifetime .bar,
+.p-profiles-show .cc-2.block,
+.p-profiles-show .profile-content .cc-2.block .c-column .lifetime .times,
+.p-profiles .profile-head .b-stats_bar .stat_names {
+    display: flex;
+}
+
+a img {
+    opacity: 0.6 !important;
+}
+
+a:hover img {
+    transition: all 0.5s;
+    opacity: 1 !important;
+}
+
+.p-profiles .profile-head .c-brief .avatar {
+    position: relative;
+    background-image: url("https://sun1-47.userapi.com/s/v1/ig1/Hr3HDr1USFJ4u7oxVzD0-sfHh8KS0Tbkn-qf47WTNfFU4ufW2LXdPr9CITCcMepJ0Gh9OuT4.jpg?size=400x0&quality=96&crop=65,0,924,1280&ava=1");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15px;
+    outline: 1px solid #2f2f2f;
+    border: 15px solid #242424;
+    max-height: 500px;
+    height: 500px;
+    max-width: 300px !important;
+    width: 100%;
+    margin: 0;
+}
+
+.p-profiles .profile-head .c-brief {
+    gap: 20px;
+    flex-direction: column-reverse;
+}
+
+.b-tooltipped.dotted {
+    border-bottom: none;
+}
+
+.p-profiles .profile-head .c-brief .avatar .profile-actions {
+    outline: 15px solid #242424;
+    margin-top: 0;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    left: 0;
+    bottom: -110px;
+    width: 100%;
+}
+
+.profile-actions .settings:before {
+    content: "\e726";
+}
+
+.profile-actions .ban:before {
+    content: "\e14b";
+}
+
+.profile-actions .mail:before {
+    content: "\f187";
+}
+
+.profile-actions .mail:before,
+.profile-actions .ban:before,
+.profile-actions .settings:before {
+    color: #7a7a7a;
+    font-family: "Material Symbols Outlined";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: "liga";
+    -webkit-font-smoothing: antialiased;
+}
+
+.achievements > .cc-2 > .c-column {
+    width: 100%;
+}
+
+.cc-franchises {
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.p-profiles-show .achievements .header .title {
+    text-align: center;
+}
+
+.p-profiles-show .achievements .header {
+    padding: 10px 0;
+    border: 1px solid #7a7a7a;
+    width: 100%;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.p-profiles-show .achievements .header .title {
+    color: #bcbcbc;
+    text-transform: uppercase;
+}
+
+.p-profiles-show .achievements .header .size {
+    color: #d82222;
+}
+
+.p-profiles-show .achievements .cc-franchises .b-badge {
+    margin-bottom: 1.5% !important;
+}
+
+.p-profiles .profile-head .c-info {
+    top: 384px;
+    right: 0;
+    width: 65%;
+}
+
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar {
+    margin-bottom: 0;
+}
+
+.p-profiles .profile-head .b-stats_bar a.title,
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #bcbcbc;
+    cursor: pointer;
+    padding: 10px 15px;
+    border: 1px solid #7a7a7a;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+
+.p-profiles .profile-head .b-stats_bar .bar {
+    display: flex;
+    height: 10px;
+    line-height: 0;
+}
+
+.b-stats_bar.anime .bar .first {
+    background-color: #7a7a7a;
+}
+
+.b-stats_bar.anime .bar .second {
+    background-color: #2f2f2f;
+}
+
+.b-stats_bar .bar .first,
+.b-stats_bar .bar .second,
+.b-stats_bar .bar .third {
+    font-size: 0;
+}
+
+.p-profiles .profile-head .b-stats_bar .stat_names {
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.p-profiles .profile-head .b-stats_bar .stat_names .stat_name {
+    text-transform: uppercase;
+    display: block;
+    margin-top: 0;
+}
+
+.p-profiles .profile-head .b-stats_bar .stat_names .stat_name a {
+    display: block;
+    padding: 5px 10px;
+    color: #7a7a7a;
+    border: 1px solid #bcbcbc;
+    border-radius: 2px;
+}
+
+.p-profiles .profile-head .b-stats_bar .stat_names .stat_name .size {
+    border-left: 1px solid #7a7a7a;
+    padding-left: 8px;
+    margin-left: 3px;
+}
+
+.p-profiles-show.x1200 .profile-content .c-right > .block:last-child,
+.p-profiles-show.x1200 .profile-content .c-right > .subcontent:last-child {
+    width: 65%;
+}
+
+.p-profiles-show .cc-favourites .c-column {
+    max-width: 120px;
+    width: 100%;
+}
+
+#cutted_covers_1 .image-cutter {
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+
+#cutted_covers_1 {
+    margin-top: 20px;
+}
+
+.p-profiles-show.x1200 .profile-content .c-right .cc-2a > .c-column {
+    width: 100%;
+    margin: 0;
+}
+
+.p-profiles-show .profile-content .c-right .cc-2a {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 0 !important;
+}
+
+.p-profiles-show.x1200 .profile-content .c-right {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.cc-friends {
+    margin-top: 20px;
+}
+
+.b-user.avatar img,
+.b-user.named_avatar img,
+.b-user.avatar_fixed_margin img {
+    opacity: 0.5;
+}
+
+.p-profiles .profile-head .c-history {
+    width: 65%;
+    margin: 0;
+    right: 0;
+    top: 109px;
+}
+
+.m13 {
+    text-align: center;
+    margin: 0 0 15px 0 !important;
+}
+
+.p-profiles .profile-head .c-history .entry {
+    margin: 0 !important;
+    padding: 0;
+    border: none !important;
+}
+
+.p-profiles .profile-head .c-history .entry:before,
+.p-profiles .profile-head .c-history .entry:after {
+    margin: 5px 0;
+}
+
+.p-profiles .profile-head .c-history .entry .title {
+    color: #7a7a7a;
+}
+
+.p-profiles .profile-head .c-history .entry .misc {
+    color: #7a7a7a !important;
+}
+
+.p-profiles-show .lifetime {
+    margin: 0;
+    text-align: center;
+}
+
+.p-profiles-show.x1200 .profile-content .c-left:nth-child(2n + 1) {
+    right: 0;
+    top: -173px;
+    width: 65%;
+    margin: 0;
+}
+
+.p-profiles-show .lifetime .title {
+    width: max-content;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border: 1px solid #7a7a7a;
+    border-radius: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.times {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.b-stats_bar.lifetime .bar .first {
+    background-color: #7a7a7a;
+}
+
+.b-stats_bar.lifetime .bar .third {
+    background-color: #2f2f2f;
+}
+
+.p-profiles-show .lifetime .bar {
+    height: 10px;
+}
+
+.l-page {
+    padding: 40px;
+    background: none;
+}
+
+body {
+    background-color: #1f1f1f;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.profile-content {
+    margin-top: 138px;
+}
+
+.p-user_rates-index .list-groups .summary.lines.list,
+.p-user_rates-index .list-groups .summary.lines.library,
+.p-user_rates-index .l-content .b-options-floated span {
+    border-bottom: none;
+}
+
+.p-user_rates-index .list-lines .selectable:hover,
+.tooltip-arrow,
+.tooltip-inner .close {
+    background: none !important;
+}
+
+td,
+th {
+    border: 1px solid #2f2f2f !important;
+    padding: 10px !important;
+}
+
+.b-table tr.border {
+    display: none;
+}
+
+.collapsed.tiny {
+    display: none !important;
+}
+
+.p-user_rates-index .list-lines tr td .new-value input {
+    padding: 3px;
+    font-size: 16px;
+    border-radius: 2px;
+}
+
+.p-user_rates-index .list-lines tr td .new-value {
+    left: 10%;
+    top: 25%;
+}
+
+.p-user_rates-index .list-lines tr td .new-value .item-add:before {
+    font-size: 16px;
+    position: relative;
+    margin: 0 0 0 -15px;
+}
+
+.b-table tr,
+.b-table td {
+    font-size: 16px;
+}
+
+.p-user_rates-index .list-lines tr .num {
+    width: 100px;
+}
+
+.p-user_rates-index .list-lines tr .num:nth-child(3) .new-value {
+    position: unset !important;
+    left: 0;
+}
+
+.p-user_rates-index .list-lines tr .num:nth-child(4) .new-value {
+    position: absolute;
+    left: 10%;
+}
+
+.hotkey-marker,
+.b-db_entry-variant-list_item,
+.b-comment {
+    border: none !important;
+}
+
+.l-top_menu-v2 .global-search .search-results .nothing_found:before,
+.l-top_menu-v2
+    .global-search
+    .search-results
+    .b-db_entry-variant-list_item:before,
+.l-top_menu-v2 .global-search .search-results .search-mode:before {
+    visibility: hidden !important;
+}
+
+.b-reviews_navigation .navigation-node {
+    align-items: center !important;
+    border-left: none;
+}
+
+.block.is-own-profile > .subheadline {
+    width: 100%;
+}
+
+.b-message {
+    border-top: none;
+}
+
+.l-top_menu-v2 .menu-dropdown.main > span {
+    cursor: pointer;
+}
+
+.collapsed + .spoiler .hide-expanded:hover {
+    background-color: #242424;
+    border: 1px solid #2f2f2f;
+}
+
+.b-quote {
+    border: none;
+}
+
+.b-input input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    filter: contrast(0.5);
+    border: none !important;
+    background-color: unset !important;
+    content: url("https://cdns.iconmonstr.com/wp-content/releases/preview/2013/240/iconmonstr-checkbox-6.png");
+}
+
+.b-input input[type="checkbox"]:checked {
+    content: url("https://cdns.iconmonstr.com/wp-content/releases/preview/2017/240/iconmonstr-checkbox-30.png");
+}

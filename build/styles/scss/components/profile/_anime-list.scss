@@ -1,0 +1,68 @@
+.p-profiles .profile-head .c-info {
+    top: 109px + 246px + 29px;
+    right: 0;
+    width: 65%;
+}
+
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar {
+    margin-bottom: 0;
+}
+
+.p-profiles .profile-head .b-stats_bar a.title,
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: $primary;
+    cursor: pointer;
+    padding: 10px 15px;
+    border: 1px solid $secondary;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+
+.p-profiles .profile-head .b-stats_bar .bar {
+    display: flex;
+    height: 10px;
+    line-height: 0;
+}
+
+.b-stats_bar.anime .bar .first {
+    background-color: $secondary;
+}
+
+.b-stats_bar.anime .bar .second {
+    background-color: $border-blocks;
+}
+
+.b-stats_bar .bar .first,
+.b-stats_bar .bar .second,
+.b-stats_bar .bar .third {
+    font-size: 0;
+}
+
+.p-profiles .profile-head .b-stats_bar .stat_names {
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.p-profiles .profile-head .b-stats_bar .stat_names .stat_name {
+    text-transform: uppercase;
+    display: block;
+    margin-top: 0;
+}
+
+.p-profiles .profile-head .b-stats_bar .stat_names .stat_name a {
+    display: block;
+    padding: 5px 10px;
+    color: $secondary;
+    border: 1px solid $primary;
+    border-radius: 2px;
+}
+
+.p-profiles .profile-head .b-stats_bar .stat_names .stat_name .size {
+    border-left: 1px solid $secondary;
+    padding-left: 8px;
+    margin-left: 3px;
+}

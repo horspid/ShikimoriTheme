@@ -1,0 +1,96 @@
+.p-user_rates-index .list-groups .summary.lines.list,
+.p-user_rates-index .list-groups .summary.lines.library,
+.p-user_rates-index .l-content .b-options-floated span {
+    border-bottom: none;
+}
+.p-user_rates-index .list-lines .selectable:hover,
+.tooltip-arrow,
+.tooltip-inner .close {
+    background: none !important;
+}
+td,
+th {
+    border: 1px solid $border-blocks !important;
+    padding: 10px !important;
+}
+.b-table tr.border {
+    display: none;
+}
+
+.collapsed.tiny {
+    display: none !important;
+}
+.p-user_rates-index .list-lines tr td .new-value input {
+    padding: 3px;
+    font-size: 16px;
+    border-radius: 2px;
+}
+.p-user_rates-index .list-lines tr td .new-value {
+    left: 10%;
+    top: 25%;
+}
+.p-user_rates-index .list-lines tr td .new-value .item-add:before {
+    font-size: 16px;
+
+    position: relative;
+    margin: 0 0 0 -15px;
+}
+.b-table tr,
+.b-table td {
+    font-size: 16px;
+}
+.p-user_rates-index .list-lines tr .num {
+    width: 100px;
+}
+.p-user_rates-index .list-lines tr .num:nth-child(3) .new-value {
+    position: unset !important;
+    left: 0;
+}
+.p-user_rates-index .list-lines tr .num:nth-child(4) .new-value {
+    position: absolute;
+    left: 10%;
+}
+.hotkey-marker,
+.b-db_entry-variant-list_item,
+.b-comment {
+    border: none !important;
+}
+.l-top_menu-v2 .global-search .search-results .nothing_found:before,
+.l-top_menu-v2
+    .global-search
+    .search-results
+    .b-db_entry-variant-list_item:before,
+.l-top_menu-v2 .global-search .search-results .search-mode:before {
+    visibility: hidden !important;
+}
+.b-reviews_navigation .navigation-node {
+    align-items: center !important;
+    border-left: none;
+}
+.block.is-own-profile > .subheadline {
+    width: 100%;
+}
+.b-message {
+    border-top: none;
+}
+.l-top_menu-v2 .menu-dropdown.main > span {
+    cursor: pointer;
+}
+.collapsed + .spoiler .hide-expanded:hover {
+    background-color: $background-blocks;
+    border: 1px solid $border-blocks;
+}
+.b-quote {
+    border: none;
+}
+.b-input input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    filter: contrast(0.5);
+    border: none !important;
+    background-color: unset !important;
+    content: url("https://cdns.iconmonstr.com/wp-content/releases/preview/2013/240/iconmonstr-checkbox-6.png");
+}
+.b-input input[type="checkbox"]:checked {
+    content: url("https://cdns.iconmonstr.com/wp-content/releases/preview/2017/240/iconmonstr-checkbox-30.png");
+}
